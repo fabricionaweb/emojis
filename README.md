@@ -1,5 +1,7 @@
 # Emojis :frog:
 
+[![NPM version](https://badge.fury.io/js/emojis.png)](http://npmjs.org/emojis)
+
 This little package has a function (two actually) for replacing emoji codes (like `:smiley:`) for emoji images (or
 unicode characters) in a given string. Similar to GitHub and other websites.
 
