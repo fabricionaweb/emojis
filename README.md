@@ -17,7 +17,7 @@ unicode characters) in a given string. Similar to GitHub and other websites.
 $ npm install emojis
 emojis@1.0.4 node_modules/emojis
 $ node
-> var emojis = require('./emojis')
+> var emojis = require('emojis')
 undefined
 > emojis.replaceWithUnicode('I :green_heart: you!')
 'I 💚 you!'
