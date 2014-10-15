@@ -1,6 +1,12 @@
 # Emojis :frog:
 
-[![NPM version](https://badge.fury.io/js/emojis.png)](http://npmjs.org/emojis)
+[![build](https://travis-ci.org/tallesl/emojis.png)](https://travis-ci.org/tallesl/emojis)
+[![coverage](https://coveralls.io/repos/tallesl/emojis/badge.png)](https://coveralls.io/r/tallesl/emojis)
+[![dependencies](https://david-dm.org/tallesl/emojis.png)](https://david-dm.org/tallesl/emojis)
+[![devDependencies](https://david-dm.org/tallesl/emojis/dev-status.png)](https://david-dm.org/tallesl/emojis#info=devDependencies)
+[![npm module](https://badge.fury.io/js/emojis.png)](http://badge.fury.io/js/emojis)
+
+[![npm](https://nodei.co/npm/emojis.png?mini=true)](https://nodei.co/npm/emojis/)
 
 This little package has a function (two actually) for replacing emoji codes (like `:smiley:`) for emoji images (or
 unicode characters) in a given string. Similar to GitHub and other websites.
