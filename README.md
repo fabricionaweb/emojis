@@ -1,4 +1,4 @@
-# [!logo](logo/32.gif) Emojis
+# [![logo](logo/32.gif)](#-emojis) Emojis
 
 [![build](https://travis-ci.org/tallesl/emojis.png)](https://travis-ci.org/tallesl/emojis)
 [![coverage](https://coveralls.io/repos/tallesl/emojis/badge.png?branch=master)](https://coveralls.io/r/tallesl/emojis?branch=master)
