@@ -1,4 +1,4 @@
-# Emojis :frog:
+# [!logo](logo/32.gif) Emojis
 
 [![build](https://travis-ci.org/tallesl/emojis.png)](https://travis-ci.org/tallesl/emojis)
 [![coverage](https://coveralls.io/repos/tallesl/emojis/badge.png?branch=master)](https://coveralls.io/r/tallesl/emojis?branch=master)
@@ -19,10 +19,10 @@ emojis@1.0.4 node_modules/emojis
 $ node
 > var emojis = require('emojis')
 undefined
-> emojis.replaceWithUnicode('I :green_heart: you!')
-'I 💚 you!'
-> emojis.replaceWithHtml('I :green_heart: you!', 'http://example.org/images/emoji/')
-'I <img class="emoji" width="20" height="20" align="absmiddle" src="http://example.org/images/emoji/green_heart.png" alt="green_heart" /> you!'
+> emojis.replaceWithUnicode('I :heart: you!')
+'I ❤️ you!'
+> emojis.replaceWithHtml('I :heart: you!', 'http://example.org/images/')
+'I <img class="emoji" width="20" height="20" align="absmiddle" src="http://example.org/images/heart.png" alt="heart" /> you!'
 ```
 
 ## Emoji codes and images
