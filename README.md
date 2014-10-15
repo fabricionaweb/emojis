@@ -1,7 +1,7 @@
 # Emojis :frog:
 
 [![build](https://travis-ci.org/tallesl/emojis.png)](https://travis-ci.org/tallesl/emojis)
-[![coverage](https://coveralls.io/repos/tallesl/emojis/badge.png)](https://coveralls.io/r/tallesl/emojis)
+[![coverage](https://coveralls.io/repos/tallesl/emojis/badge.png?branch=master)](https://coveralls.io/r/tallesl/emojis?branch=master)
 [![dependencies](https://david-dm.org/tallesl/emojis.png)](https://david-dm.org/tallesl/emojis)
 [![devDependencies](https://david-dm.org/tallesl/emojis/dev-status.png)](https://david-dm.org/tallesl/emojis#info=devDependencies)
 [![npm module](https://badge.fury.io/js/emojis.png)](http://badge.fury.io/js/emojis)
