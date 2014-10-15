@@ -79,3 +79,17 @@ describe('emojis', function () {
     })
   })
 })
+
+describe('emojis', function () {
+  describe('replaceWithHtml', function () {
+    it('should replace even with colons on text', function () {
+
+      // act
+      var actual = emojis.replaceWithHtml('Here\'s a math for you: :beer: + :beer: = :beers:')
+
+      // assert
+      assert.strictEqual(actual, 'Here\'s a math for you: <img class="emoji" width="20" height="20" align="absmiddle" src="beer.png" alt="beer" /> + <img class="emoji" width="20" height="20" align="absmiddle" src="beer.png" alt="beer" /> = <img class="emoji" width="20" height="20" align="absmiddle" src="beers.png" alt="beers" />')
+
+    })
+  })
+})

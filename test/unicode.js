@@ -70,3 +70,17 @@ describe('emojis', function () {
     })
   })
 })
+
+describe('emojis', function () {
+  describe('replaceWithUnicode', function () {
+    it('should replace even with colons on text', function () {
+
+      // act
+      var actual = emojis.replaceWithUnicode('Here\'s a math for you: :beer: + :beer: = :beers:')
+
+      // assert
+      assert.strictEqual(actual, 'Here\'s a math for you: 🍺 + 🍺 = 🍻')
+
+    })
+  })
+})
