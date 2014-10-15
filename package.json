@@ -2,6 +2,9 @@
   "name": "emojis",
   "version": "1.0.3",
   "description": "replaces emoji codes to images (like GitHub)",
+  "scripts": {
+    "test": "mocha"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -20,6 +23,8 @@
   },
   "homepage": "https://github.com/tallesl/emojis",
   "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.2",
     "mocha": "^1.21.4"
   }
 }
