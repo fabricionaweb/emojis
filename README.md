@@ -22,7 +22,7 @@ undefined
 > emojis.replaceWithUnicode('I :green_heart: you!')
 'I 💚 you!'
 > emojis.replaceWithHtml('I :green_heart: you!', 'http://example.org/images/emoji/')
-'I <img class="emoji" width="20" height="20" align="absmiddle" src="http://example.org/images/emoji/green_heart.png" alt=":green_heart:" /> you!'
+'I <img class="emoji" width="20" height="20" align="absmiddle" src="http://example.org/images/emoji/green_heart.png" alt="green_heart" /> you!'
 ```
 
 ## Emoji codes and images
