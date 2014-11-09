@@ -1,4 +1,4 @@
-# [![logo](logo/32.gif)](#-emojis) Emojis
+# [![logo](asset/logo/32.gif)](#-emojis) Emojis
 
 [![build](https://travis-ci.org/tallesl/emojis.png)](https://travis-ci.org/tallesl/emojis)
 [![coverage](https://coveralls.io/repos/tallesl/emojis/badge.png?branch=master)](https://coveralls.io/r/tallesl/emojis?branch=master)
@@ -32,3 +32,4 @@ The emoji codes used are the ones on [Emoji cheat sheet](http://emoji-cheat-shee
 Their images are also provided here for you to use
 ([images.zip](https://github.com/tallesl/emojis/blob/master/images.zip)), but consider
 [their copyright](https://github.com/arvida/emoji-cheat-sheet.com/blob/master/LICENSE).
+

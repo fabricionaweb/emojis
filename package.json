@@ -9,6 +9,11 @@
     "istanbul": "^0.3.2",
     "mocha": "^2.0.0"
   },
+  "directories": {
+    "asset": "./asset",
+    "lib": "./lib",
+    "test": "./test"
+  },
   "homepage": "https://github.com/tallesl/emojis",
   "keywords": [
     "emoji",
@@ -16,8 +21,8 @@
     "replace",
     "text"
   ],
-  "license": "Public Domain <http://unlicense.org/>",
-  "main": "index.js",
+  "license": "Fair",
+  "main": "./lib/emojis.js",
   "name": "emojis",
   "repository": {
     "type": "git",
@@ -28,3 +33,4 @@
   },
   "version": "1.0.5"
 }
+

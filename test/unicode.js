@@ -1,5 +1,5 @@
 var assert = require('assert')
-  , emojis = require('../index.js')
+  , emojis = require('../lib/emojis.js')
 
 describe('emojis', function () {
   describe('replaceWithUnicode', function () {
@@ -84,3 +84,4 @@ describe('emojis', function () {
     })
   })
 })
+
