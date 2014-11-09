@@ -15,7 +15,7 @@ unicode characters) in a given string. Similar to GitHub and other websites.
 
 ```javascript
 $ npm install emojis
-emojis@1.0.5 node_modules/emojis
+emojis@1.0.6 node_modules/emojis
 $ node
 > var emojis = require('emojis')
 undefined
