@@ -22,7 +22,7 @@ undefined
 > emojis.replaceWithUnicode('I :heart: you!')
 'I ❤️ you!'
 > emojis.replaceWithHtml('I :heart: you!', 'http://example.org/images/')
-'I <img class="emoji" width="20" height="20" align="absmiddle" src="http://example.org/images/heart.png" alt="heart" /> you!'
+'I <img class="emoji" width="20" height="20" src="http://example.org/images/heart.png" alt="heart"> you!'
 ```
 
 ## Emoji codes and images
@@ -33,3 +33,15 @@ Their images are also provided here for you to use
 ([images.zip](https://github.com/tallesl/emojis/blob/master/images.zip)), but consider
 [their copyright](https://github.com/arvida/emoji-cheat-sheet.com/blob/master/LICENSE).
 
+## Aligning the HTML image
+
+One way to align the emoji image within the text would be using `align="absmiddle"`, just as GitHub does, but I didn't do it because [it's obsolete](https://html.spec.whatwg.org/multipage/obsolete.html#attr-img-align).
+
+[A suggestion is to use the following CSS:](http://stackoverflow.com/a/5203632/1316620)
+
+```css
+.emoji {
+  margin-bottom: .25em;
+  vertical-align: middle;
+}
+```

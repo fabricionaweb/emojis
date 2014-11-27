@@ -10,7 +10,7 @@ describe('emojis', function () {
 
       // assert
       assert.strictEqual(actual, '\
-<img class="emoji" width="20" height="20" align="absmiddle" src="beer.png" alt="beer" /> \
+<img class="emoji" width="20" height="20" src="beer.png" alt="beer"> \
 is the answer')
 
     })
@@ -26,7 +26,7 @@ describe('emojis', function () {
 
       // assert
       assert.strictEqual(actual, 'Stop... \
-<img class="emoji" width="20" height="20" align="absmiddle" src="hammer.png" alt="hammer" /> \
+<img class="emoji" width="20" height="20" src="hammer.png" alt="hammer"> \
 time!')
 
     })
@@ -42,7 +42,7 @@ describe('emojis', function () {
 
       // assert
       assert.strictEqual(actual, 'Patience is \
-<img class="emoji" width="20" height="20" align="absmiddle" src="key.png" alt="key" />')
+<img class="emoji" width="20" height="20" src="key.png" alt="key">')
 
     })
   })
@@ -57,8 +57,8 @@ describe('emojis', function () {
 
       // assert
       assert.strictEqual(actual, '\
-<img class="emoji" width="20" height="20" align="absmiddle" src="game_die.png" alt="game_die" />\
-<img class="emoji" width="20" height="20" align="absmiddle" src="game_die.png" alt="game_die" />')
+<img class="emoji" width="20" height="20" src="game_die.png" alt="game_die">\
+<img class="emoji" width="20" height="20" src="game_die.png" alt="game_die">')
 
     })
   })
@@ -73,8 +73,8 @@ describe('emojis', function () {
 
       // assert
       assert.strictEqual(actual, '\
-<img class="emoji" width="20" height="20" align="absmiddle" src="eyes.png" alt="eyes" />\n\
-<img class="emoji" width="20" height="20" align="absmiddle" src="tongue.png" alt="tongue" />')
+<img class="emoji" width="20" height="20" src="eyes.png" alt="eyes">\n\
+<img class="emoji" width="20" height="20" src="tongue.png" alt="tongue">')
 
     })
   })
@@ -88,7 +88,7 @@ describe('emojis', function () {
       var actual = emojis.replaceWithHtml('Here\'s a math for you: :beer: + :beer: = :beers:')
 
       // assert
-      assert.strictEqual(actual, 'Here\'s a math for you: <img class="emoji" width="20" height="20" align="absmiddle" src="beer.png" alt="beer" /> + <img class="emoji" width="20" height="20" align="absmiddle" src="beer.png" alt="beer" /> = <img class="emoji" width="20" height="20" align="absmiddle" src="beers.png" alt="beers" />')
+      assert.strictEqual(actual, 'Here\'s a math for you: <img class="emoji" width="20" height="20" src="beer.png" alt="beer"> + <img class="emoji" width="20" height="20" src="beer.png" alt="beer"> = <img class="emoji" width="20" height="20" src="beers.png" alt="beers">')
 
     })
   })
